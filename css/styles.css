@@ -299,6 +299,9 @@ img {
 
 .our-team {
   background-color: var(--header-team-card-background);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .our-team-headline {
@@ -306,11 +309,7 @@ img {
 }
 
 .team-sec-div {
-  padding: 32px 16px;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  border-radius: 0px 0px 4px 4px;
-  border: 0;
+  padding: 32px 0px;
 }
 
 .thrd-rang-headlines {
@@ -360,9 +359,7 @@ img {
 }
 
 .team-svg {
-  width: 16px;
-  height: 16px;
-  fill: var(--header-team-card-background);
+  fill: var(--light-mode-dialogs);
 }
 
 /*#endregion section 4*/
@@ -425,10 +422,8 @@ img {
 
 .footer-flex {
   display: flex;
-}
-
-.footer-social-medias {
-  margin-right: 120px;
+  align-items: baseline;
+  gap: 120px;
 }
 
 .footer-logo-web {
@@ -464,6 +459,10 @@ img {
 
 .footer-soc-head {
   color: var(--header-team-card-background);
+  font-weight: var(--font-weight-medium);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   margin-top: 0;
   margin-bottom: 16px;
 }
@@ -485,14 +484,12 @@ img {
   width: 40px;
   height: 40px;
   color: var(--header-team-card-background);
-  background-color: var(--par-color);
+  background-color: var(--order-button-color);
   align-items: center;
   justify-content: center;
 }
 
 .footer-social {
-  width: 24px;
-  height: 24px;
   fill: currentColor;
 }
 
