@@ -389,7 +389,7 @@ img {
 
 .customers-link {
   display: flex;
-  border: 1px solid var(--customers-color);
+  border: 1px solid var(--light-slate);
   border-radius: 4px;
   width: 168px;
   height: 88px;
