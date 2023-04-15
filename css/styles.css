@@ -395,7 +395,7 @@ img {
   height: 88px;
   align-items: center;
   justify-content: center;
-  color: var(--customers-color);
+  color: var(--light-slate);
 }
 
 .customers-link:hover,
